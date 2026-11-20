@@ -1,0 +1,12 @@
+using Microsoft.Maui.Controls;
+
+namespace CatalogoMaui;
+
+public partial class App : Application
+{
+    public App()
+    {
+        InitializeComponent();
+        MainPage = new AppShell();
+    }
+}
